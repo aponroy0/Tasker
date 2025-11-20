@@ -3,11 +3,11 @@
 Tasker is a modern and minimal task management application built with React.
 It helps you organize, prioritize, and track your tasks with a clean and intuitive user interface.
 
-![Tasker Screenshot](./your-screenshot.png)
-
 </br>
+
 ## Live Demo
-https://tasker-demo.vercel.app/
+
+https://tasker-theta-eight.vercel.app/
 
 </br>
 
