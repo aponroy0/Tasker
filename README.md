@@ -1,16 +1,65 @@
-# React + Vite
+# Tasker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tasker is a modern and minimal task management application built with React.
+It helps you organize, prioritize, and track your tasks with a clean and intuitive user interface.
 
-Currently, two official plugins are available:
+![Tasker Screenshot](./your-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</br>
+## Live Demo
+https://tasker-demo.vercel.app/
 
-## React Compiler
+</br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Add, edit, and delete tasks
+- Search tasks by title
+- Assign priority levels (High, Medium, Low)
+- Add tags to categorize tasks
+- Delete all tasks at once
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</br>
+
+## Component Map
+
+Below is a simplified breakdown of the component structure used in the project:
+
+![Tasker Screenshot](public/assets/Tasker.jpg)
+
+</br>
+
+## Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Tailwind
+- Vite
+
+</br>
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/aponroy0/tasker.git
+
+# Navigate into the project
+cd tasker
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+</br>
+
+## Usage
+
+1. Open the application in your browser.
+2. Add tasks with a title, description, priority, and tags.
+3. Edit or delete tasks as needed.
+4. Use the search bar to filter tasks.
+5. Use the Delete All button to clear the full list.
